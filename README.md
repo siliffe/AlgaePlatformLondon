@@ -23,7 +23,7 @@ body { margin: 0; padding: 0; }
 mapboxgl.accessToken = 'pk.eyJ1IjoiZHVzdGRlbGVnYXRpb24iLCJhIjoiY2szZXBmZGxzMDBtYjNlbWw2Mzl4c285aCJ9.fhya6LWsaZG2aw1Pj_e';
 var map = new mapboxgl.Map({
 container: 'map', // container id
-style: 'mapbox://styles/dustdelegation/ck3enjh5907qm1cmy8hp3etke', //hosted style id
+style: 'mapbox://styles/mapbox/dark-v10', //hosted style id
 center: [-77.38, 39], // starting position
 zoom: 3 // starting zoom
 });
